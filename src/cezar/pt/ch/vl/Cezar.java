@@ -9,6 +9,7 @@ public class Cezar {
 		String s = "MVEZ MZUZ MZTZ";
 		int key = 17;
 		Decrypt(s, key);
+		System.out.print("Ответ : " + key);
 	}
 
 	public static void Decrypt(String str, int n) {
@@ -31,10 +32,7 @@ public class Cezar {
 					c -= 26;
 			}
 			string += c;
-		   }
-		System.out.println("Расшифровка : " + string);
 		}
+		System.out.println("Расшифровка : " + string);
 	}
-		
-
-
+}
